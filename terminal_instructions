@@ -6,6 +6,6 @@ cd CARLA-0.9.12
 
 conda activate opencda
 
-cd ~/opencda
+cd ~/OpenCDA
 
 (opencda) python opencda.py -t (type scenario name) -v 0.9.12
