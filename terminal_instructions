@@ -1,0 +1,11 @@
+cd CARLA-0.9.12
+
+./CarlaUE4.sh
+
+*OPEN A NEW TERMINAL*
+
+conda activate opencda
+
+cd ~/opencda
+
+(opencda) python opencda.py -t (type scenario name) -v 0.9.12
