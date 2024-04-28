@@ -30,16 +30,16 @@ carla_traffic_manager:
   ignore_lights_percentage: 0 # whether set the traffic ignore traffic lights
   vehicle_list:
     - spawn_position: [ 31, -20, 0.3, 0, 180, 0 ]
-      vehicle_speed_perc: 100
-    - spawn_position: [ -40, -20, 0.3, 0, 180, 0 ]
-      vehicle_speed_perc: 200
-    - spawn_position: [ -30, -14, 0.3, 0, 180, 0 ]
-      vehicle_speed_perc: 200
+      vehicle_speed_perc: -100
+    - spawn_position: [ 0, -20, 0.3, 0, 180, 0 ]
+      vehicle_speed_perc: -100
+    - spawn_position: [ 10, -14, 0.3, 0, 180, 0 ]
+      vehicle_speed_perc: -100
 
 scenario:
   single_cav_list: # this is for merging vehicle or single cav without v2x
     - name: cav1
-      spawn_position: [ 25, -14, 0.3, 0, 180, 0 ]
+      spawn_position: [ 30, -13, 0.3, 0, 180, 0 ]
       destination: [-80, -14, 0.3]
       v2x:
         communication_range: 45
