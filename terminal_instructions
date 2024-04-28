@@ -1,4 +1,4 @@
-cd CARLA-0.9.12
+cd >/CARLA-0.9.12
 
 ./CarlaUE4.sh
 
@@ -6,6 +6,10 @@ cd CARLA-0.9.12
 
 conda activate opencda
 
-cd ~/OpenCDA
+(opencda) cd ~/CARLA_0.9.12/PythonAPI/util/
 
-(opencda) python opencda.py -t (type scenario name) -v 0.9.12
+(opencda) python ./config.py --map Town06
+
+(opencda) cd ~/OpenCDA
+
+(opencda) python opencda.py -t group5scenario -v 0.9.12
